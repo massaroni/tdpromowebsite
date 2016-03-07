@@ -23,7 +23,7 @@ header {
 
 .header-image {
   background: black;
-  background: black url('https://github.com/massaroni/tdpromowebsite/blob/master/images/numbers.png?raw=true') no-repeat;
+  background: black url('https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/numbers.png') no-repeat;
   background-position: top right;
   background-size: 60% auto;
   background-attachment: fixed;
@@ -374,7 +374,7 @@ footer small {
     margin-top: 0px;
   }
   .bulls-bears {
-    background: url('https://github.com/massaroni/tdpromowebsite/blob/master/images/bears-and-bulls-iphone6.png?raw=true') top right no-repeat;
+    background: url('https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/bears-and-bulls-iphone6.png') top right no-repeat;
     background-size: contain;
     top: 140px;
     right: 20px;
