@@ -7,17 +7,17 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/massaroni/tdpromowebsite/master/web/styles.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/massaroni/tdpromowebsite/7180f06caffdb0ed29aea029704ff35546e7512b/web/styles.css">
     <title>TradeDuel</title>
 </head>
 <body>
 <section id="billboard">
   <header  class="header-image">
     <div class="row">
-      <div class="logo col-xs-6 col-xs-offset-1 text-left">
+      <div class="logo col-xs-6 col-xs-offset-1 col-sm-3 col-sm-offset-2 text-left">
         <img src="https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/logo.png" alt="Logo of Trade Duel. Fantasy stocks. Real data.">
       </div>
-  	  <div class="social col-xs-4 text-right">
+  	  <div class="social col-xs-4 col-sm-2 col-sm-offset-3 text-right">
         <a href="https://www.twitter.com/wallstjackpot" target="_blank">
           <img src="https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/twitter.png" alt="Follow us on Twitter!" />
         </a>
@@ -27,7 +27,10 @@
       </div>
     </div>
     <div class="row">
-      <h1 class="slogan col-xs-8 col-xs-offset-1">Beat your <span>opponents</span>, not the <span>market</span>.</h1>
+      <h1 class="slogan col-xs-8 col-xs-offset-1 col-sm-8 col-sm-offset-2">Beat your <span>opponents</span>, not the <span>market</span>.</h1>
+      <div class="headline col-sm-8 col-sm-offset-2 text-right">
+        &quot;<span>Skill-based Multiplayer Matches:</span> <span>fantasy</span> stocks, <span>real</span> data.&quot;
+      </div>
     </div>
   </header>
   <div class="parallax-first col-xs-12"></div>
@@ -41,6 +44,19 @@
     <div class="form-group row">
   	   <input type="email" id="signup_email" class="LR-sign-up-input signup-email signup-input lato-light form-control col-xs-7 col-xs-offset-1 span2" placeholder="EMAIL ADDRESS"><i class="email-icon icon-envelope fa fa-envelope"></i></input>
     	<input type="submit" id="signup_submit" name="submit" title="GO" value="Sign Up" class="signup-submit lato-light LR-sign-up-submit btn btn-default col-xs-3 col-xs-offset-1">
+    </div>
+  </div>
+</section>
+<section id="email-signup-desktop">
+  <div class="signup-block text-center form-inline">
+    <div class="form-group row">
+      <div class="h3 col-sm-5 text-left">
+        <label class="lato-regular">Beta &amp; news:</label>
+      </div>
+      <div class="field col-sm-7">
+    	  <input type="email" id="signup_email" class="LR-sign-up-input signup-email signup-input lato-light form-control span2" placeholder="EMAIL ADDRESS"><i class="email-icon icon-envelope fa fa-envelope"></i></input>
+      	<input type="submit" id="signup_submit" name="submit" title="GO" value="Sign Up" class="signup-submit lato-light LR-sign-up-submit btn btn-default">
+      </div>
     </div>
   </div>
 </section>
@@ -60,19 +76,34 @@
       </div>
   </div>
 </section>
+<section id="platforms-desktop">
+  <div class="platform-info lato-regular">
+    	<div class="row">
+        <span class="coming-soon lato-regular col-sm-8 col-sm-offset-2 text-center">COMING SOON...
+          <img src="http://wsjp.simongold.in/assets/platform_google.png"/>
+          <img src="http://wsjp.simongold.in/assets/platform_apple.png"/>
+          <span class="platform-icons"><i class="fa fa-laptop"></i><i class="fa fa-tablet"></i><i class="fa fa-mobile"></i><span)
+        </span>
+      </div>
+  </div>
+</section>
 <section id="service">
   <div class="row why-section first lato-regular section">
-    <div class="why-half col-xs-3 col-xs-offset-1">
+    <div class="why-half col-xs-3 col-xs-offset-1 col-sm-2 col-sm-offset-2">
         <img src="http://wsjp.simongold.in/assets/game_screen.png"
              alt="Join games and compete for capital gains with virtual trades based on real market data."/>
     </div>
-    <div class="why-half col-xs-6 col-xs-offset-1">
+    <div class="why-half mobile col-xs-6 col-xs-offset-1">
         <h2>Fantasy Stocks</h2>
         <h4>Play friends, track stats vs. markets &amp; players.</h4>
     </div>
+    <div class="why-half desktop col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-1">
+        <h2>Compete For Capital Gains Based On Virtual Stock Trades</h2>
+        <h4>Play against your friends, and track performance against the market and your opponents.</h4>
+    </div>
   </div>
   <div class="row why-section second lato-regular section">
-    <div class="why-half col-xs-6 col-xs-offset-1">
+    <div class="why-half mobile col-xs-6 col-xs-offset-1">
         <h2>Free or Cash?</h2>
         <ul>
             <li>Learning? Play free.</li>
@@ -80,7 +111,15 @@
             <li>Risk less, win more!</li>
         </ul>
     </div>
-    <div class="why-half col-xs-3 col-xs-offset-1">
+    <div class="why-half desktop col-sm-5 col-sm-offset-2">
+        <h2>Play Free, Or With Real Money</h2>
+        <ul>
+            <li>Want to learn the market? Play for free.</li>
+            <li>Think you can beat others? Play for cash.</li>
+            <li>Why not risk less, and potentially make a lot more!</li>
+        </ul>
+    </div>
+    <div class="why-half col-xs-3 col-xs-offset-1 col-sm-2 col-sm-offset-1">
         <img src="http://wsjp.simongold.in/assets/game_screen2.png"
              alt="Play for real money, merchandise, or for free"/>
     </div>
@@ -112,7 +151,7 @@
       <div class="row">
         <img class="icon col-xs-2 col-xs-offset-1" src="http://wsjp.simongold.in/assets/icon-2.png" alt="icon: different length games" />
         <div class="details col-xs-7 col-xs-offset-1">
-            <h3>1, 7, &amp;30-day contests</h3>
+            <h3>1, 7, &amp; 30-day contests</h3>
             <p>Unlimited matches.</p>
         </div>
       </div>
@@ -128,6 +167,44 @@
         <div class="details col-xs-7 col-xs-offset-1">
             <h3>No, low &amp; high stakes</h3>
             <p>Noob or boss?</p>
+        </div>
+      </div>
+  </div>
+  <div class="info-section-desktop section">
+      <div class="row">
+        <img class="icon col-sm-1 col-sm-offset-2" src="http://wsjp.simongold.in/assets/icon-1.png" alt="icon: beat your opponents, not the market." />
+        <div class="details col-sm-3">
+            <h3>Beat opponents, not the market</h3>
+            <p>In a bear market? Who cares! To win all you need to do is beat a % of your opponents in a particular game.</p>
+        </div>
+        <img class="icon col-sm-1 right" src="http://wsjp.simongold.in/assets/icon-2.png" alt="icon: different length games" />
+        <div class="details col-sm-3">
+            <h3>1, 7, &amp; 30-day contests</h3>
+            <p>Pick a game duration that is right for your trading strategy and play as many games as you want at the same time.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-sm-1 col-sm-offset-2" src="http://wsjp.simongold.in/assets/icon-3.png" alt="icon: play against friends" />
+        <div class="details col-sm-3">
+            <h3>Play against your friends</h3>
+            <p>Bragging rights are the best! Show your friends and the public who the real boss is. Invite people you know and challenge people you don't know.</p>
+        </div>
+        <img class="icon col-sm-1 right" src="http://wsjp.simongold.in/assets/icon-6.png" alt="icon: different buy-ins" />
+        <div class="details col-sm-3">
+            <h3>Win virtual prizes</h3>
+            <p>Who has the biggest trophy case in town? Receive virtual awards that you can show off to your family, friends and colleagues.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-sm-1 col-sm-offset-2" src="http://wsjp.simongold.in/assets/icon-5.png" alt="icon: play against friends" />
+        <div class="details col-sm-3">
+            <h3>Public and Private Leagues</h3>
+            <p>Join existing games or create your own.</p>
+        </div>
+        <img class="icon col-sm-1 right" src="http://wsjp.simongold.in/assets/icon-4.png" alt="icon: different buy-ins" />
+        <div class="details col-sm-3">
+            <h3>Low or high stakes buy-ins</h3>
+            <p>Play for free or put real money on the line.</p>
         </div>
       </div>
   </div>
