@@ -522,7 +522,7 @@ footer small {
   .comingsoon .platform-icons {
     margin-top: 2px;
   }
-  .why-half:not(.desktop) {
+  .why-half.mobile {
     display: none;
   }
   .why-half.desktop {
