@@ -141,7 +141,7 @@ h1.slogan span:nth-of-type(2) {
 .signup-block #signup_email {
   background-color: #FFF;
   color: #B8B7B8;
-  padding: 0 0 0 38px;
+  padding: 0 0 0 38px !important;
   text-align: left;
   line-height: 50px;
   font-size: 1em;
@@ -470,8 +470,15 @@ footer small {
     height: 6em;
     margin-top: 6em;
   }
+  #email-signup-desktop .form-group .h3 {
+    text-align: right;
+    padding-right: 1em;
+  }
+  .form-inline .form-group {
+    display: block;
+  }
   .signup-block .email-icon {
-    left: 21px;
+    left: 12px;
     position: absolute;
     z-index: 12;
   }
