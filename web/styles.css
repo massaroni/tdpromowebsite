@@ -415,13 +415,10 @@ footer small {
 
 @media (min-width: 768px) {
   .header-image {
-    background: black;
-    /*background: black url('https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/numbers.png') no-repeat;*/
-    background-position: top right;
-    background-size: 60% auto;
-    background-attachment: fixed;
+    background-image: url('https://cdn.rawgit.com/massaroni/tdpromowebsite/7910323445dab2f94417a95f79a9f02b127633f5/images/numbers-desktop.png');
+    background-size: 42% auto;
+    background-position: right -86px top;
     height: 350px;
-    overflow: visible;
     width: 100%;
   }
   .logo img {
