@@ -49,6 +49,10 @@ header {
               inset 0px 0px 15px 10px rgba(0,0,0,0.8);
 }
 
+.social {
+  z-index: 1000;
+}
+
 .social img {
   height: auto;
   margin-top: 1.2em;
