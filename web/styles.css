@@ -417,7 +417,7 @@ footer small {
 @media (min-width: 476px) and (max-width: 767px) {
   .signup-call-to-action {
     font-size: 1.1em;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     color: #000;
   }
 }
