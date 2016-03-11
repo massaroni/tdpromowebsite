@@ -110,6 +110,8 @@ h1.slogan span:nth-of-type(2) {
 #email-signup {
   background: white;
   height: 6em;
+  color: #000;
+  font-weight: 800;
 }
 
 #email-signup h3 {
