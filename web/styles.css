@@ -23,6 +23,12 @@ h1,h2,h3, h4, h5, h6 {
   margin-top: 120px;
 }
 
+.signup-call-to-action {
+  font-size: 1.1em;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
 header {
   height: 375px;
   background-color: transparent;
@@ -390,6 +396,29 @@ footer small {
   }
   iframe .prefinery-iframe {
     height: 150px !important;
+  }
+
+  .signup-call-to-action {
+    font-size: 1.1em;
+    padding-bottom: 5px;
+    color: #000;
+  }
+
+}
+
+@media (min-width: 411px) and (max-width: 475px) {
+  .signup-call-to-action {
+    font-size: 1.1em;
+    padding-bottom: 5px;
+    color: #fff;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 767px) {
+  .signup-call-to-action {
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    color: #000;
   }
 }
 
