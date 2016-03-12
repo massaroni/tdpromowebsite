@@ -402,6 +402,8 @@ footer small {
     font-size: 1.1em;
     padding-bottom: 5px;
     color: #000;
+    width: 100%;
+    margin-left: 0px;
   }
 
 }
