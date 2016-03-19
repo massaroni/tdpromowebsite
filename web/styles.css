@@ -465,6 +465,13 @@ footer small {
   .social img {
     max-width: 40px;
   }
+
+  div.why-half.desktop {
+    width: 60%;
+    margin-left: 6%;
+    padding-right: 10px;
+  }
+
   h1.slogan {
     margin-top: 1.2em;
     font-size: 2.0em;
