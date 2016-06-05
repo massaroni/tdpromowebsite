@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{{page.seo_title}}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="keywords" content="{{page.seo_keywords}}" />
+  <meta name="description" content="{{page.seo_description}}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+  <link rel="shortcut icon" href="{{page.favicon_url}}" />
+
+  <!-- Third Party Styles -->
+  <link href="https://dd0e48b9f098c5ec52b7-899885ac0e1012a91d877150bd0b4d9d.ssl.cf1.rackcdn.com/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <style type="text/css">
+    {{page.css}}
+  </style>
+
+  <!-- Third Party Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://dd0e48b9f098c5ec52b7-899885ac0e1012a91d877150bd0b4d9d.ssl.cf1.rackcdn.com/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Fonts -->
+  <link href="https://dd0e48b9f098c5ec52b7-899885ac0e1012a91d877150bd0b4d9d.ssl.cf1.rackcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://dd0e48b9f098c5ec52b7-899885ac0e1012a91d877150bd0b4d9d.ssl.cf1.rackcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://dd0e48b9f098c5ec52b7-899885ac0e1012a91d877150bd0b4d9d.ssl.cf1.rackcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- workaround for small screen sizes -->
+  <script type="text/javascript">
+    function fixIframeHeight() {
+      $('iframe').height('150px');
+    }
+
+    function iframeHeightWorkaround() {
+      //$("body").on("domChanged", function () {
+      $("body").bind("DOMSubtreeModified", function () {
+        console.log('DOM changed.');
+        fixIframeHeight();
+        setTimeout(fixIframeHeight, 5000);
+      });
+
+      $("body").bind("DOMNodeInserted", function () {
+        console.log('DOM changed 2.');
+        fixIframeHeight();
+        setTimeout(fixIframeHeight, 5000);
+      });
+
+      fixIframeHeight();
+      setTimeout(fixIframeHeight, 5000);
+    }
+
+    if (window.attachEvent) {
+      window.attachEvent('onload',iframeHeightWorkaround);
+    } else {
+      window.addEventListener('load',iframeHeightWorkaround,false);
+    }
+
+    iframeHeightWorkaround();
+  </script>
+
+  <!-- Custom Javascript -->
+  <script type="text/javascript">
+    {{page.custom_js}}
+  </script>
+</head>
+
+<body>
+  {{page.top_body_scripts}}
+
+  <section id="billboard">
+    <header  class="header-image">
+      <div class="row">
+        <div class="logo col-xs-6 col-xs-offset-1 col-sm-3 col-sm-offset-2 text-left">
+          <img src="https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/logo.png" alt="Logo of Trade Duel. Fantasy stocks. Real data.">
+        </div>
+        <div class="social col-xs-4 col-sm-2 col-sm-offset-3 text-right">
+          <a href="https://www.twitter.com/wallstjackpot" target="_blank">
+            <img src="https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/twitter.png" alt="Follow us on Twitter!" />
+          </a>
+          <a href="https://www.facebook.com/pages/Wall-Street-Jackpot/1009546845726307" target="_blank">
+            <img src="https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/facebook.png" alt="Like us on Facebook!" />
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <h1 class="slogan col-xs-8 col-xs-offset-1 col-sm-8 col-sm-offset-2">Beat your <span>opponents</span>, not the <span>market</span>.</h1>
+        <div class="headline col-sm-8 col-sm-offset-2 text-right">
+          &quot;<span>Skill-based Multiplayer Matches:</span> <span>fantasy</span> stocks, <span>real</span> data.&quot;
+        </div>
+      </div>
+    </header>
+    <div class="parallax-first col-xs-12"></div>
+    <!--<div class="bulls-bears"><img src="https://cdn.rawgit.com/massaroni/tdpromowebsite/master/images/bears-and-bulls.png"></div>-->
+  </section>
+
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+          <div class="text-center">
+            <div class="content">
+              {{page.form_v2}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="platforms">
+    <div class="row">
+      <h3 class="lato-regular col-xs-10 col-xs-offset-1 text-center"><u>Fantasy</u> Stocks, <u>Real</u> Data.</h3>
+    </div>
+    <div class="platform-info lato-regular">
+      <div class="row">
+        <span class="coming-soon lato-regular col-xs-10 col-xs-offset-1 text-center">COMING SOON TO: <i class="fa fa-laptop"></i><i class="fa fa-tablet"></i><i class="fa fa-mobile"></i></span>
+      </div>
+      <div class="row platform-wrapper">
+        <div class=" col-xs-10 col-xs-offset-1 text-center">
+          <img src="http://wsjp.simongold.in/assets/platform_google.png"/>
+          <img src="http://wsjp.simongold.in/assets/platform_apple.png"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="platforms-desktop">
+    <div class="platform-info lato-regular">
+      <div class="row">
+        <span class="coming-soon lato-regular col-sm-8 col-sm-offset-2 text-center">COMING SOON...
+          <img src="http://wsjp.simongold.in/assets/platform_google.png"/>
+          <img src="http://wsjp.simongold.in/assets/platform_apple.png"/>
+          <span class="platform-icons"><i class="fa fa-laptop"></i><i class="fa fa-tablet"></i><i class="fa fa-mobile"></i><span/>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section id="service">
+    <div class="row why-section first lato-regular section">
+      <div class="why-half col-xs-3 col-xs-offset-1 col-sm-2 col-sm-offset-2">
+        <img src="https://raw.githubusercontent.com/massaroni/tdpromowebsite/master/images/traduel-standings-screen-concept-screenshot.png"
+             alt="Join games and compete for capital gains with virtual trades based on real market data."/>
+      </div>
+      <div class="why-half mobile col-xs-6 col-xs-offset-1">
+        <h2>Fantasy Stocks</h2>
+        <h4>Play friends, track stats vs. markets &amp; players.</h4>
+      </div>
+      <div class="why-half desktop col-sm-6 col-sm-offset-1 col-md-5 col-md-offset-1">
+        <h2>Compete For Capital Gains Based On Virtual Stock Trades</h2>
+        <h4>Play against your friends, and track performance against the market and your opponents.</h4>
+      </div>
+    </div>
+    <div class="row why-section second lato-regular section">
+      <div class="why-half mobile col-xs-6 col-xs-offset-1">
+        <h2>Free or Cash?</h2>
+        <ul>
+          <li>Learning? Play free.</li>
+          <li>Got skills? Pay down.</li>
+          <li>Risk less, win more!</li>
+        </ul>
+      </div>
+      <div class="why-half desktop col-sm-5 col-sm-offset-2">
+        <h2>Play Free, Or With Real Money</h2>
+        <ul>
+          <li>Want to learn the market? Play for free.</li>
+          <li>Think you can beat others? Play for cash.</li>
+          <li>Why not risk less, and potentially make a lot more!</li>
+        </ul>
+      </div>
+      <div class="why-half col-xs-3 col-xs-offset-1 col-sm-2 col-sm-offset-1">
+        <img src="https://raw.githubusercontent.com/massaroni/tdpromowebsite/master/images/traduel-search-screen-concept-screenshot.png"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="info-section section">
+      <div class="row">
+        <img class="icon col-xs-2 col-xs-offset-1" src="http://wsjp.simongold.in/assets/icon-1.png" alt="icon: beat your opponents, not the market." />
+        <div class="details col-xs-7 col-xs-offset-1">
+          <h3>Beat players, not markets</h3>
+          <p>A new way to trade.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-xs-2 col-xs-offset-1" src="http://wsjp.simongold.in/assets/icon-3.png" alt="icon: play against friends" />
+        <div class="details col-xs-7 col-xs-offset-1">
+          <h3>Play against friends</h3>
+          <p>Then brag about it.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-xs-2 col-xs-offset-1" src="http://wsjp.simongold.in/assets/icon-5.png" alt="icon: play against friends" />
+        <div class="details col-xs-7 col-xs-offset-1">
+          <h3>Public and private game</h3>
+          <p>Unlimited games.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-xs-2 col-xs-offset-1" src="http://wsjp.simongold.in/assets/icon-2.png" alt="icon: different length games" />
+        <div class="details col-xs-7 col-xs-offset-1">
+          <h3>5, 10, &amp; 20-day trading games</h3>
+          <p>Unlimited entry.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-xs-2 col-xs-offset-1" src="http://wsjp.simongold.in/assets/icon-6.png" alt="icon: different buy-ins" />
+        <div class="details col-xs-7 col-xs-offset-1">
+          <h3>Win virtual prizes</h3>
+          <p>Champs get trophies.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-xs-2 col-xs-offset-1" src="http://wsjp.simongold.in/assets/icon-4.png" alt="icon: different buy-ins" />
+        <div class="details col-xs-7 col-xs-offset-1">
+          <h3>Free, low or high stakes games</h3>
+          <p>Your choice.</p>
+        </div>
+      </div>
+    </div>
+    <div class="info-section-desktop section">
+      <div class="row">
+        <img class="icon col-sm-1 col-sm-offset-2" src="http://wsjp.simongold.in/assets/icon-1.png" alt="icon: beat your opponents, not the market." />
+        <div class="details col-sm-3">
+          <h3>Beat players, not markets</h3>
+          <p>A whole new way to trade. Make money by beating the competition.</p>
+        </div>
+        <img class="icon col-sm-1 right" src="http://wsjp.simongold.in/assets/icon-2.png" alt="icon: different length games" />
+        <div class="details col-sm-3">
+          <h3>5, 10 and 20 day trading games</h3>
+          <p>Pick a game duration that is right for your trading strategy and play as many games as you want at the same time.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-sm-1 col-sm-offset-2" src="http://wsjp.simongold.in/assets/icon-3.png" alt="icon: play against friends" />
+        <div class="details col-sm-3">
+          <h3>Play against your friends</h3>
+          <p>Bragging rights are the best! Challenge your friends to head to head TradeDuels and compete against players across the world.</p>
+        </div>
+        <img class="icon col-sm-1 right" src="http://wsjp.simongold.in/assets/icon-6.png" alt="icon: different buy-ins" />
+        <div class="details col-sm-3">
+          <h3>Win virtual prizes</h3>
+          <p>Who has the biggest trophy case in town? Receive virtual awards that you can show off to your family, friends and colleagues.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="icon col-sm-1 col-sm-offset-2" src="http://wsjp.simongold.in/assets/icon-5.png" alt="icon: play against friends" />
+        <div class="details col-sm-3">
+          <h3>Public and Private Games</h3>
+          <p>Join existing games or create your own.</p>
+        </div>
+        <img class="icon col-sm-1 right" src="http://wsjp.simongold.in/assets/icon-4.png" alt="icon: different buy-ins" />
+        <div class="details col-sm-3">
+          <h3>Free, low or high stakes games</h3>
+          <p>Play for free or put real money on the line.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div class="container">
+      <ul class="list-unstyled list-inline social-icons">
+        {% if page.facebook_url != blank %}
+        <li>
+          <a href="{{page.facebook_url}}" target="_blank"><i class="fa fa-facebook-square"></i></a>
+        </li>
+        {% endif %}
+        {% if page.twitter_url != blank %}
+        <li>
+          <a href="{{page.twitter_url}}" target="_blank"><i class="fa fa-twitter-square"></i></a>
+        </li>
+        {% endif %}
+        {% if page.googleplus_url != blank %}
+        <li>
+          <a href="{{page.googleplus_url}}" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+        </li>
+        {% endif %}
+        {% if page.linkedin_url != blank %}
+        <li>
+          <a href="{{page.linkedin_url}}" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+        {% endif %}
+        {% if page.pinterest_url != blank %}
+        <li>
+          <a href="{{page.pinterest_url}}" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+        </li>
+        {% endif %}
+        {% if page.blog_url != blank %}
+        <li>
+          <a href="{{page.blog_url}}" target="_blank"><i class="fa fa-rss-square"></i></a>
+        </li>
+        {% endif %}
+        {% if page.email_address != blank %}
+        <li>
+          <a href="mailto:{{page.email_address}}" target="_blank"><i class="fa fa-envelope-o"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+
+  {{page.integration_v2}}
+  {{page.bottom_body_scripts}}
+</body>
+</html>
