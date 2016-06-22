@@ -1,0 +1,119 @@
+
+.header img {
+    width: 400px;
+}
+
+section {
+    color: #000;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.faq h2 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.faq ul {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+.terms p {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.terms span .note {
+    font-size: 10px;
+}
+
+.terms h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.terms h3 {
+    font-size: 14px;
+}
+
+.terms p .important-notice {
+    text-align: justify;
+    font-size: 13px;
+}
+
+.terms p .super-important-notice {
+    text-align: justify;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.terms p .content {
+    font-size: 12px;
+}
+
+.terms ul {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    mergin-bottom: 15px;
+    margin-left: 0px;
+}
+
+
+
+
+.privacy p .subcontent {
+    padding-left: 20px;
+}
+
+.privacy em {
+    font-style: normal;
+}
+
+.privacy ul {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    mergin-left: 0px;
+}
+
+
+
+
+section.legal-footer {
+    font-size: 12px;
+    color: #333;
+    background-color: #fff;
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
