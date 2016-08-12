@@ -380,6 +380,10 @@ footer small {
   font-size: 1.0em;
 }
 
+.prefinery-iframe {
+  max-height: 50px;
+}
+
 /* Iphone 6 issues*/
 @media (min-width: 100px) and (max-width: 413px) {
   h1.slogan {
