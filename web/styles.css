@@ -225,12 +225,8 @@ h1.slogan span:nth-of-type(2) {
   color: #999;
 }
 
-.platform-wrapper {
-  margin-top: 1.2em;
-}
-
 .platform-wrapper img {
-  height: 42px;
+  height: 48px;
 }
 
 .platform-wrapper img:nth-child(2) {
@@ -386,11 +382,12 @@ footer small {
 
 /* Iphone 6 issues*/
 @media (min-width: 100px) and (max-width: 413px) {
+  #billboard {
+    max-height: 175px;
+  }
+
   h1.slogan {
     font-size: 1.9em;
-  }
-  #platforms {
-    margin-top: 80px;
   }
   #features .details {
     margin-top: 10px;
@@ -413,6 +410,10 @@ footer small {
 }
 
 @media (min-width: 411px) and (max-width: 475px) {
+  #billboard {
+    max-height: 175px;
+  }
+
   .signup-call-to-action {
     font-size: 1.1em;
     padding-bottom: 5px;
@@ -421,6 +422,10 @@ footer small {
 }
 
 @media (min-width: 476px) and (max-width: 767px) {
+  #billboard {
+    max-height: 175px;
+  }
+
   .signup-call-to-action {
     font-size: 1.1em;
     padding-bottom: 5px;
@@ -429,6 +434,10 @@ footer small {
 }
 
 @media (min-width: 414px) and (max-width: 767px) {
+  #billboard {
+    max-height: 175px;
+  }
+
   .signup-block #signup_email {
     width: 69%;
   }
@@ -446,9 +455,6 @@ footer small {
     margin-top: 105px;
   }
 
-  #platforms {
-    margin-top: 80px;
-  }
   #features .details {
     margin-top: 10px;
   }
@@ -566,12 +572,17 @@ footer small {
     margin-bottom: 1.0em;
     padding-bottom: 1.5em;
   }
+  #platforms-desktop-coming-soon {
+    width: inherit;
+    margin-left: 15%;
+  }
   .coming-soon {
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 0;
+    margin-top: -20px;
   }
   .coming-soon img {
-    height: 2em;
+    height: 6.6em;
     padding-left: 1em;
     width: auto;
   }
