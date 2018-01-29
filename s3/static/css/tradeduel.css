@@ -1,0 +1,70 @@
+h2.team {
+  text-align: center;
+  margin: -40px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+section.team {
+  display: inline-table;
+  width: 100%;
+  min-width: 100%;
+  table-layout: fixed;
+  margin: 0px 0px 70px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+section.team > figure {
+  display: table-cell;
+  text-align: center;
+  vertical-align: top;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+section.team > figure > figcaption {
+  display: block;
+  color: #333;
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+}
+section.team > figure > figcaption > h1 {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 14px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+section.team > figure > figcaption > p {
+  font-size: 1.3em;
+  font-weight: inherit;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+section.team > figure > img {
+  display: inline-block;
+  margin: 30px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  border-radius: 100%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #333;
+}
+
+@media (max-width: 767px) {
+  section.team > figure {
+    display: table-row;
+  }
+
+  section.team > figure > img {
+    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
+    height: 40%;
+    min-height: 40%;
+    max-height: 40%;
+  }
+}

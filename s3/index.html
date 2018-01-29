@@ -1,96 +1,476 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
 <head>
-  <title>Download TradeDuel</title>
-  <meta charset="utf-8" />
-  <style>
-    h1 {
-      width: 100%;
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 0px;
-    }
-
-    h1 img {
-      width: 90%;
-    }
-
-    h2 {
-      width: 100%;
-      text-align: center;
-      margin-top: -30px;
-      margin-bottom: 50px;
-      font-family: Arial, sans-serif;
-      font-size: 20px;
-    }
-
-    img {
-      width: 70%;
-    }
-
-    div img {
-      margin-bottom: 30px;
-    }
-
-    div {
-      width: 100%;
-      text-align: center;
-    }
-
-    @media (max-device-width: 500px) {
-      div.help {
-        line-height: 45px;
-        font-size: 45px;
-        position: absolute;
-        bottom: 50px;
-        font-family: Arial, sans-serif;
-      }
-
-      h2 {
-        font-size: 45px;
-        margin-bottom: 70px;
-      }
-    }
-
-    @media (min-device-width: 501px) {
-      div.help {
-        line-height: 25px;
-        font-size: 25px;
-        position: relative;
-        font-family: Arial, sans-serif;
-      }
-
-      h1 img {
-        width: 500px;
-      }
-
-      div.download {
-        display: inline;
-        margin-left: 25px;
-        margin-right: 25px;
-      }
-
-      div.downloads {
-        clear:both;
-        position: relative;
-      }
-
-      div.download img {
-        width: 250px;
-      }
-
-    }
-  </style>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="TradeDuel" />
+    <title>TradeDuel - Earn While You Learn</title>
+    <meta name="description" content="Earn While You Learn">
+    <meta name="keywords" content="tradeduel,tradedual,trade duel,trade dual">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="static/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="static/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="static/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="static/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="static/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="static/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="static/css/responsive.css" type="text/css" />
+  <link rel="stylesheet" href="static/css/tradeduel.css" type="text/css" />
+	<link rel="stylesheet" href="static/css/jquery.flipster.css" type="text/css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="static/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/plugins.js"></script>
+    <script type="text/javascript" src="static/js/jquery.owlcarousel.js"></script>
+    <script type="text/javascript" src="static/js/jquery.flipster.js"></script>
+    <meta property="og:url"           content="www.tradeduel.finance/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="TradeDuel" />
+    <meta property="og:description"   content="TradeDuel - Earn While You Learn" />
+    <meta property="og:image"         content="http://support.tradeduel.finance/images/LOGO_Black.png" />
 </head>
+<body class="stretched" data-loader="20" data-animation-in="fadeIn" data-speed-in="1500" data-animation-out="fadeOut" data-speed-out="800">
 
-<body>
-  <h1><img src="https://tradeduel.github.io/support-site/images/LOGO_Black.png" /></h1>
-  <h2>Stock trading competitions for cash prizes.</h2>
-  <div class="downloads">
-    <div class="download"><a href="https://itunes.apple.com/us/app/tradeduel/id1111685773?ls=1&mt=8"><img src="https://tradeduel.github.io/support-site/images/download-on-the-app-store.png"/></a></div>
-    <div class="download"><a href="https://play.google.com/store/apps/details?id=com.tradeduel.tradeduel&hl=en"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Get_it_on_Google_play.svg/2000px-Get_it_on_Google_play.svg.png"/></a></div>
-  </div>
-  <div class="help"><a href="http://support.tradeduel.finance/web/support.html">Need help?</a></div>
+    <div id="wrapper" class="clearfix light-background" style="background-color: #EEF5EE!important;">
+    	<header id="header" class="full-header sticky-header noborder">
+			<div id="header-wrap" class="dark-background" style="height: 100px;" data-class-xs="menu-sup-mobile"
+                 data-class-xxs="menu-sup-mobile">
+                <div class="container clearfix">
+                    <div id="logo" class="noborder" style="margin-left: 8%;">
+                        <a href="#banner" data-scrollto="#banner">
+                            <img src="static/images/logo_trade.png" alt="Logotipo TradeDuel"
+                                 data-class-xs="margin-top-mob" data-class-xxs="margin-top-mob"
+                            style="height: 50px;">
+                        </a>
+                    </div>
+                    <div class="download-icons">
+                        <a id="btn-android" href="https://play.google.com/store/apps/details?id=com.tradeduel.tradeduel" title="Tradeduel app on android play store">
+                            <img id="android_icon"
+                                 src="static/images/btn_android.png"
+                                 alt="Tradeduel app on android play store" class="apps-icons" width="170">
+                        </a>
+                        <a id="btn-ios" href="https://itunes.apple.com/us/app/tradeduel/id1111685773" title="Tradeduel app on ios app store">
+                            <img id="ios_icon"
+                                 src="static/images/btn_ios.png"
+                                 alt="Tradeduel app on ios app store" width="170" class="apps-icons">
+                        </a>
+                    </div>
+                </div>
+			</div>
+		</header>
+
+        <!-- banner -->
+        <section id="banner" class="light-background notopmargintop">
+            <div class="section nobottommargin light-background center" style="padding-top: 0px;" data-class-lg="left" data-class-md="left">
+                <div class="container clearfix light-background" style="margin-top: 10px;">
+                    <div class="col_half" style="position: relative;">
+                        <div class="hide video-app-wrapper" data-class-sm="show" data-class-lg="show" data-class-md="show">
+                            <img src="static/images/cel_canvas.png" alt="phone" class="image-app-img">
+                            <div class="image-app"></div>
+                            <video class="center-block video-app" id="video" autoplay loop data-class-lg="padding-35">
+                                <source src="static/videos/trade_movie_mobile.mp4" />
+                                <source src="static/images/videos/trade_movie_mobile.mp4" />
+                                <source src="static/videos/trade_movie_mobile.mp4" />
+                            </video>
+                        </div>
+                        
+                        <!--mobile-->
+                        <div id="oc-fbox-prints" class="hide owl-carousel fbox-carousel topmargin-sm" data-class-xxs="show" data-class-xs="show">
+                            <div class="oc-item">
+                                <div class="feature-box fbox-center fbox-border fbox-dark">
+                                    <div data-animate="fadeInDown" data-delay="6" class="col-md-3">
+                                        <img src="static/images/phone_screen_1.png" alt="Image" class="center-block">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="feature-box fbox-center fbox-border fbox-dark">
+                                    <div data-animate="fadeInDown" data-delay="6" class="col-md-3">
+                                        <img src="static/images/phone_screen_2.png" alt="Image" class="center-block">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="feature-box fbox-center fbox-border fbox-dark">
+                                    <div data-animate="fadeInRight" data-delay="6" class="col-md-3">
+                                        <img src="static/images/phone_screen_3.png" alt="Image" class="center-block">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="feature-box fbox-center fbox-border fbox-dark">
+                                    <div data-animate="fadeInDown" data-delay="6" class="col-md-3">
+                                        <img src="static/images/phone_screen_5.png" alt="Image" class="center-block">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/mobile-->
+
+
+
+                    </div>
+                    <div class="col_half bottommargin notopmargin col_last left" style="padding-top: 40px;" data-class-lg="padding-desktop">
+                        <div class="heading-block noborder bottommargin-sm">
+                            <h1 class="hide" data-class-sm="show" data-class-lg="show">
+                                We're on a mission<br/>
+                                to make the stock market<br/>
+                                fun again
+                            </h1>
+                            <h1 class="hide title-xxs" data-class-xxs="show" data-class-xs="show">
+                                We're on a<br/>
+                                mission to make<br/>
+                                the stock market<br/>
+                                fun again
+                            </h1>
+                            <span class="topmargin-sm hide" data-class-xxs="show" data-class-xs="show">
+                                Develop the skills and experience to trade with confidence.<br/>
+                                Study your opponents and develop your own tactics.<br/>
+                            </span>
+                            <span class="topmargin-sm hide" data-class-sm="show" data-class-lg="show">
+                                Develop the skills and experience<br/>
+                                to trade with confidence.<br/>
+                                Study your opponents and<br/>
+                                develop your own tactics.<br/>
+                            </span>
+                        </div>
+                        <a id="link-download" href="#" class="button button-border button-rounded button-large button-dark noleftmargin">
+                            DOWNLOAD NOW
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </section>
+        <!-- /banner -->
+
+        <!-- how-works -->
+		<section id="works">
+		    <div class="content-wrap dark-background" style="padding:50px;">
+			    <div class="notopmargin bottommargin clearfix center" data-class-lg="container"
+							data-class-md="container" style="max-width: 900px;">
+                    <h2 class="notopmargin font-light">HOW TRADEDUEL WORKS</h2>
+                    <h4 class="notopmargin font-light" style="font-weight: normal;">
+                        Check our <a href="#" data-toggle="modal" class="btn-modal"
+                        data-theVideo="https://www.youtube.com/watch?v=RgdzDdP9Ohw"
+                        data-toggle="modal" data-target="#videoModal">
+                        demo</a> for more info.
+                    </h4>
+                </div>
+                <div class="col_one_third nobottommargin center">
+                    <a href="#">
+                        <img width="50%" src="static/images/icon_friends.png" alt="Image" class="bottommargin-sm">
+                    </a>
+                    <h4 class="font-light">PLAY THE GAME</h4>
+                    <p>
+                        Join real time contests with players from<br/>
+                        around the world or invite your friends<br/>
+                        and challenge them to a match
+                    </p>
+                </div>
+                <div class="col_one_third nobottommargin center">
+                    <a href="#">
+                        <img width="50%" src="static/images/icon_money.png" alt="Image" class="bottommargin-sm">
+                    </a>
+                    <h4 class="font-light">EARN WHILE YOU LEARN</h4>
+                    <p>
+                        Play for free and win cash prizes.<br/>
+                        Compete to grow your virtual portfolio.<br/>
+                        Study your opponents<br/>
+                        and develop your own tactics
+                    </p>
+                </div>
+                <div class="col_one_third nobottommargin center col_last">
+                    <a href="#">
+                        <img width="50%" src="static/images/icon_game.png" alt="Image" class="bottommargin-sm">
+                    </a>
+                    <h4 class="font-light">
+                        GET INSPIRED
+                    </h4>
+                    <p>
+                        Find hot stocks in our Ideas Lists<br/>
+                        and track your favorite stocks in your Watchlist.<br/>
+                        Research news articles, historical price charts, and fundamentals
+                    </p>
+                </div>
+				<div class="clear"></div>
+            </div>
+        </section>
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close button" data-dismiss="modal" aria-hidden="true">X</button>
+                        <div>
+                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/RgdzDdP9Ohw"
+                                    frameborder="0" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /how-works -->
+
+        <!-- reviews -->
+        <section id="reviews" class="notopmargin nobottommargin light-background">
+			<div class="content-wrap notopmargin">
+				<div class="container clearfix">
+                    <div class="clearfix bottommargin">
+                        <div class="divcenter center clearfix heading-block noborder nobottommargin">
+                            <h2>REVIEWS</h2>
+                        </div>
+                    </div>
+                    <div class="fslider testimonial testimonial-full bottommargin light-background" data-animation="slide" data-arrows="true">
+                        <div class="flexslider">
+                            <div class="slider-wrap">
+                                <div class="slide" style="width: 100%; position: relative;display: block; z-index: 1;">
+                                    <div class="bottommargin-sm" style="text-align: center!important;">
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                    </div>
+                                    <div class="testi-content divcenter" style="width: 80%;">
+                                    <p class="font-dark">Download this app!!! it's so much fun I recommend it to every friend that I come across.</p>
+                                        <div class="testi-meta font-dark">
+                                            Shaun Madrigale
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide" style="width: 100%; position: relative; display: block; z-index: 2;">
+                                    <div class="bottommargin-sm" style="text-align: center!important;">
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                    </div>
+                                    <div class="testi-content divcenter" style="width: 80%;">
+                                        <p class="font-dark">User friendly, visually interesting design, and appeals to a diverse audience.</p>
+                                        <div class="testi-meta font-dark">
+                                            Ivey Barker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide" style="width: 100%; position: relative; display: block; z-index: 2;">
+                                    <div class="bottommargin-sm" style="text-align: center!important;">
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review-empty i-circled icon-star-empty"></i>
+                                    </div>
+                                    <div class="testi-content divcenter" style="width: 80%;">
+                                        <p class="font-dark">Pretty cool concept... It's obviously a new feature venture for you, but I've found it fairly user-friendly and enjoyable.
+                                            As I get more used to it, I'll update this review with some specifics.
+                                        Cool concept though guys! Hope you can make it take off!</p>
+                                        <div class="testi-meta font-dark">
+                                            Sam Kersten
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide" style="width: 100%; position: relative;display: block; z-index: 2;">
+                                    <div class="bottommargin-sm" style="text-align: center!important;">
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review-empty i-circled icon-star-empty"></i>
+                                    </div>
+                                    <div class="testi-content divcenter" style="width: 80%;">
+                                        <p class="font-dark">Freaking cool! Great way to test your
+                                        skills on the market before spending
+                                        real money! I just wish it bad a chat
+                                        option on here to reach out to your
+                                        opponent and other players!</p>
+                                        <div class="testi-meta font-dark">
+                                            Warren Holt
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide" style="width: 100%; position: relative;display: block; z-index: 1;">
+                                    <div class="bottommargin-sm" style="text-align: center!important;">
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                        <i class="star-review i-circled icon-star-empty"></i>
+                                    </div>
+                                    <div class="testi-content divcenter" style="width: 80%;">
+                                        <p class="font-dark">
+                                            perfect for investiment training w/o actually utilizing your money.
+                                            Plus if you do well you can turn some percentage of your earnings into some real pocket changea.</p>
+                                        <div class="testi-meta font-dark">
+                                            Mark Attallah
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </section>
+        <!-- /reviews -->
+
+        <!-- contact -->
+        <!--
+        <section id="contact">
+            <div class="container clearfix" style="max-width: 900px;" data-class-lg="bottommargin-lg"
+                 data-class-md="topmargin-lg bottommargin-lg">
+                <div class="divcenter center heading-block noborder topmargin">
+                    <h2 align="center" class="font-light">WE WANT TO HEAR FROM YOU</h2>
+                    <div id="msg-error" class="style-msg alertmsg hide">
+                        <div class="sb-msg"><i class="icon-warning-sign"></i><strong>Ops!</strong> <div id="email-error">é necessário informar todos os campos</div></div>
+                    </div>
+                    <div id="msg-success" class="style-msg successmsg hide">
+                        <div class="sb-msg"><i class="icon-thumbs-up"></i><strong>Obrigado!</strong>&nbsp;&nbsp;sua mensagem foi enviada com sucesso</div>
+                    </div>
+                    <div class="form-process topmargin-sm clearfix" data-height-lg="100" id="form-result">
+                        <span class="light-color">Aguarde enquanto enviamos sua mensagem</span>
+                    </div>
+                    <form id="form-contact" name="template-contactform" action="/sendEmail" method="post" novalidate="novalidate">
+                        <div class="divcenter topmargin">
+                            <div class="col-md-6">
+
+                                <div class="input-group input-group-lg divcenter" style="max-width:600px;">
+                                    <span class="input-group-addon"><i class="icon-user2"></i></span>
+                                    <input type="email" name="widget-subscribe-form-name" class="form-control required name"
+                                           id="contactform-name" placeholder="Your name" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-md-6" data-class-xxs="topmargin-sm">
+                                <div class="input-group input-group-lg divcenter" style="max-width:600px;">
+                                    <span class="input-group-addon"><i class="icon-mail"></i></span>
+                                    <input type="email" name="widget-subscribe-form-email" class="form-control required email"
+                                           id="contactform-email" placeholder="Your email" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-md-12 topmargin-sm">
+                                <div class="input-group input-group-lg divcenter">
+                                    <span class="input-group-addon" style="vertical-align:top;">
+                                        <i class="icon-comment"></i>
+                                    </span>
+                                    <textarea placeholder="Message" class="required form-control sm-form-control required form-field" id="contactform-email"
+                                              name="template-contactform-message" rows="10" cols="30"
+                                              aria-required="true" required style="height: 120px;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fright">
+                            <div class="col-md-12" style="margin-top: 15px; margin-bottom: 15px;">
+                                <a href="#" data-class-xxs="button-small" data-class-lg="button-xlarge"
+                                   data-class-md="button-xlarge" data-class-sm="button-xlarge"
+                                   class="dark-background button button-dark button-rounded tright">
+                                    Send<i class="icon-email2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="clear"></div>
+		</section>
+        <!-- /contact -->
+
+        <h2 class="team">TRADEDUEL TEAM</h2>
+        <section class="team">
+            <figure>
+                <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAgpAAAAJDYyYjU4ZjAzLTYzZjEtNGY4ZC1hNjM3LTIyMGI3ZDc0MWY0ZA.jpg"/>
+                <figcaption>
+                    <h1>Ron Silletti</h1>
+                    <p>CEO and Managing Partner</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAJzAAAAJDA1MWZjMzY1LWUzMzAtNDJjNS1iZTNiLWVmMWE0OTFjNzYyNw.jpg"/>
+                <figcaption>
+                    <h1>David Herbert</h1>
+                    <p>COO and Head of Corporate Strategy</p>
+                    <p>fmr President of E-Trade Securities</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAjAAAAAJGIyZTQ5OTcyLTk1M2MtNDk3OS05M2NhLTVmZTk5ZTc4YmEyMw.jpg"/>
+                <figcaption>
+                    <h1>Kevin Massaroni</h1>
+                    <p>CTO and Managing Partner</p>
+                </figcaption>
+            </figure>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer" class="noborder">
+            <div id="copyrights" class="dark-background">
+				<div class="container clearfix">
+					<div class="col_half font-light">
+                        <i class="icon-map-marker2">&nbsp;Address:</i> 176 Deerfield Lane North Pleasantville NY 10570
+                        <div class="clear"></div>
+                        <i class="icon-envelope2">&nbsp;Email:</i>
+                        <a href="mailto:support@tradeduel.com" class="font-light">
+                            support@tradeduel.finance
+                        </a>
+                        <div class="clear"></div>
+                        <!--<i class="icon-phone3">&nbsp;Tel:</i> +(0) 000-1234-5678-->
+                        <div class="hide" data-class-xs="show icon-social-xxs" data-class-xxs="show icon-social-xxs">
+                            <a href="https://www.facebook.com/traduel/">
+                                <img src="static/images/facebook_icon.png" alt="Facebook TradeDuel">
+                            </a>
+                            <a href="https://www.twitter.com/tradeduel/">
+                                <img src="static/images/twitter_icon.png" alt="Twitter TradeDuel">
+                            </a>
+                            <a href="https://www.instagram.com/tradeduel.finance/">
+                                <img src="static/images/instagram_icon.png" alt="Instagram TradeDuel">
+                            </a>
+                            <a href="https://www.linkedin.com/company/tradeduel/">
+                                <img src="static/images/linkedin_icon.png" alt="Linkedin TradeDuel">
+                            </a>
+                        </div>
+					</div>
+                    <div class="col_half col_last tright">
+                        <a href="https://www.facebook.com/traduel/">
+                            <img src="static/images/facebook_icon.png" alt="Facebook TradeDuel">
+                        </a>
+                        <a href="https://www.twitter.com/tradeduel/">
+                            <img src="static/images/twitter_icon.png" alt="Twitter TradeDuel">
+                        </a>
+                        <a href="https://www.instagram.com/tradeduel.finance/">
+                            <img src="static/images/instagram_icon.png" alt="Instagram TradeDuel">
+                        </a>
+                        <a href="https://www.linkedin.com/company/tradeduel/">
+                            <img src="static/images/linkedin_icon.png" alt="Linkedin TradeDuel">
+                        </a>
+                    </div>
+                </div>
+			</div>
+		</footer>
+        <!-- /footer -->
+
+		<div id="gotoTop" class="icon-angle-up icon-up"></div>
+    </div>
+    <script src="static/js/functions.js"></script>
+    <script src="static/js/tradeduel.js"></script>
+
 </body>
 </html>
-
