@@ -54,6 +54,15 @@ section.team > figure > img {
   border-color: #333;
 }
 
+.valueprop > p {
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.valueprop > h4 {
+  letter-spacing: 2px;
+}
+
 @media (max-width: 767px) {
   section.team > figure {
     display: table-row;
